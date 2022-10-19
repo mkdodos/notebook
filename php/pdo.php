@@ -1,4 +1,6 @@
 <?php
+#https://www.php.net/manual/en/pdostatement.fetchall.php
+
 header("Access-Control-Allow-Origin:*");
 header("Content-Type:text/html; charset=big5");
 
