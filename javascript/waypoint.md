@@ -11,22 +11,25 @@ npm install react-waypoint --save
 
 import { Waypoint } from 'react-waypoint';
 
+```
 <Waypoint
   onEnter={loadMoreContent}
 />
+```
 
-
+```
 <Table></Table>
 <Waypoint/>
-
+```
 和 semantic ui Table 直接放一起 onEnter 會失效
 
 改用
 
-<Grid>
-將 Table 包住
+Grid 將 Table 包住
 
+```
 <Grid>
   <Table></Table>
 </Grid>
 <Waypoint/>
+```
