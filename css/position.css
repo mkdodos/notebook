@@ -1,0 +1,6 @@
+/* 固定在原本的位置,不會隨視窗滾動變換位置 */
+/* 應用 react-salary/pages/Works.js */
+.navbar {
+  position: sticky;
+  top:0;
+}

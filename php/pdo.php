@@ -52,5 +52,19 @@ $json = json_encode($rows);
 $json = urldecode($json);
 
 echo $json
+
+
+
+// try {
+//   $rs = $db->query($query);
+//   $arr = $rs->fetchAll(\PDO::FETCH_ASSOC);
+  
+// } catch (PDOException $err) {
+
+//   print_r($err->getMessage());
+// }
+
 ?>
+
+
 
